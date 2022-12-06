@@ -2,9 +2,9 @@
 
 "Trabajo número 3 (Funciones en Javascript) de DesafioLatam para el módulo: Introducción a Javascript (G27):"
 
--Ingresar al index.html para acceder a cada preguntas solicitadas. 
+-Ingresar al index.html para acceder a cada pregunta solicitada. 
 
--Las funciones de Javascript están los archivos js solicitados.
+-Las funciones de Javascript están en los archivos js solicitados.
 
 -Las páginas utilizan el mismo css (assets/css/style.css y bootstrap).
 
