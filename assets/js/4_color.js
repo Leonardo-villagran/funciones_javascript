@@ -33,16 +33,36 @@ document.addEventListener('keydown', function (event) {
 
 //Función anónima para dar a cada uno de los div el color seleccionado:
 
-box01.addEventListener("click", function() {
-    box01.style.backgroundColor = color;
-});
-box02.addEventListener("click", function() {
-    box02.style.backgroundColor = color;
-});
-box03.addEventListener("click", function() {
-    box03.style.backgroundColor = color;
-});
-box04.addEventListener("click", function() {
-    box04.style.backgroundColor = color;
+cambiaColor= function (id_b){
+    let b=document.querySelector(id_b);
+    b.addEventListener("click", function() {
+        b.style.backgroundColor = color;
+    });
+}
+
+cambiaColor('#box01');
+cambiaColor('#box02');
+cambiaColor('#box03');
+cambiaColor('#box04');
+
+
+/*
+b01=document.querySelector("#box01");
+b01.addEventListener("click", function() {
+    b01.style.backgroundColor = color;
 });
 
+b02=document.querySelector("#box02");
+b02.addEventListener("click", function() {
+    b02.style.backgroundColor = color;
+});
+
+b03=document.querySelector("#box03");
+b03.addEventListener("click", function() {
+    b03.style.backgroundColor = color;
+});
+
+b04=document.querySelector("#box04");
+b04.addEventListener("click", function() {
+    b04.style.backgroundColor = color;
+});*/
