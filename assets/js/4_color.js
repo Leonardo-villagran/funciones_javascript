@@ -34,7 +34,7 @@ document.addEventListener('keydown', function (event) {
 //Función anónima para dar a cada uno de los div el color seleccionado:
 
 box01.addEventListener("click", function() {
-    box01.style.backgroundColor = cgit statusolor;
+    box01.style.backgroundColor = color;
 });
 box02.addEventListener("click", function() {
     box02.style.backgroundColor = color;
