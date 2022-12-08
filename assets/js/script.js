@@ -1,10 +1,10 @@
-//Función anónima
+//Seleccionar el elemento una sola vez de forma global
+var ele = document.querySelector("#ele1");
+
+//Función anónima que pinta sin seleccionar el elemento
 pintar = function (color='green') {
     ele.style.backgroundColor = color;
 }
-
-//Seleccionar el elemento una sola vez con color verde por defecto
-ele = document.querySelector("#ele1");
 
 //Pintar verde por defecto para probar la función
 pintar();
